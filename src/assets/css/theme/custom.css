@@ -1,0 +1,627 @@
+@charset "UTF-8";
+:root{
+
+    /* Transition
+  -------------------------- */
+
+    /* Colors
+  -------------------------- */
+
+    /* Link
+  -------------------------- */
+
+    /* Border
+  -------------------------- */
+
+    /* Box-shadow
+  -------------------------- */
+
+    /* Fill
+  -------------------------- */
+
+    /* Font
+  -------------------------- */
+
+    /* Size
+  -------------------------- */
+
+    /* z-index
+  -------------------------- */
+
+    /* Disable base
+  -------------------------- */
+
+    /* Icon
+  -------------------------- */
+
+    /* Checkbox
+  -------------------------- */
+
+    /* Radio
+  -------------------------- */
+
+    /* Select
+  -------------------------- */
+
+    /* Alert
+  -------------------------- */
+
+    /* Message Box
+  -------------------------- */
+
+    /* Message
+  -------------------------- */
+
+    /* Notification
+  -------------------------- */
+
+    /* Input
+  -------------------------- */
+
+    /* Cascader
+  -------------------------- */
+
+    /* Group
+  -------------------------- */
+
+    /* Tab
+  -------------------------- */
+
+    /* Button
+  -------------------------- */
+
+    /* cascader
+  -------------------------- */
+
+    /* Switch
+ -------------------------- */
+
+    /* Dialog
+ -------------------------- */
+
+    /* Table
+ -------------------------- */
+
+    /* Pagination
+ -------------------------- */
+
+    /* Popover
+ -------------------------- */
+
+    /* Tooltip
+  -------------------------- */
+
+    /* Tag
+  -------------------------- */
+
+    /* Dropdown
+  -------------------------- */
+
+    /* Badge
+  -------------------------- */
+
+    /* Card
+  --------------------------*/
+
+    /* Slider
+  --------------------------*/
+
+    /* Steps
+  --------------------------*/
+
+    /* Menu
+  --------------------------*/
+
+    /* Rate
+  --------------------------*/
+
+    /* DatePicker
+  --------------------------*/
+
+    /* Loading
+  --------------------------*/
+
+    /* Scrollbar
+  --------------------------*/
+
+    /* Carousel
+  --------------------------*/
+
+    /* Collapse
+  --------------------------*/
+
+    /* Transfer
+  --------------------------*/
+}
+
+/*文字颜色*/
+
+.el-c-master{
+    color: rgb(54, 54, 54) !important;
+}
+
+.el-c-master-light{
+    color: rgb(110, 110, 110) !important;
+}
+
+.el-c-master-lighter{
+    color: rgb(161, 161, 161) !important;
+}
+
+.el-c-master-lightest{
+    color: rgb(212, 212, 212) !important;
+}
+
+.el-c-white{
+    color: #fff !important;
+}
+
+.el-c-primary{
+    color: #42a5f5 !important;
+}
+
+.el-c-primary-dark{
+    color: rgb(5, 56, 97) !important;
+}
+
+.el-c-cancel{
+    color: rgb(153, 153, 153) !important;
+}
+
+.el-c-info{
+    color: #50bfff !important;
+}
+
+.el-c-success{
+    color: #13ce66 !important;
+}
+
+.el-c-warning{
+    color: #f7ba2a !important;
+}
+
+.el-c-danger{
+    color: #ff4949 !important;
+}
+
+/*背景颜色*/
+
+.el-bg-master{
+    background-color: rgb(247, 247, 247) !important;
+}
+
+.el-bg-master-dark{
+    background-color: rgb(230, 230, 230) !important;
+}
+
+.el-bg-primary{
+    background-color: #42a5f5 !important;
+}
+
+.el-bg-primary-light{
+    background-color: rgba(66, 165, 245, 0.09) !important;
+}
+
+.el-bg-secondary{
+    background-color: rgb(27, 152, 254) !important;
+}
+
+.el-bg-success{
+    background-color: #13ce66 !important;
+}
+
+.el-bg-warning{
+    background-color: #f7ba2a !important;
+}
+
+.el-bg-danger{
+    background-color: #ff4949 !important;
+}
+
+.el-bg-info{
+    background-color: #50bfff !important;
+}
+
+/*hover*/
+
+.el-c-hover{}
+
+.el-c-hover:hover{
+    color: #42a5f5 !important;
+}
+
+.el-bg-hover{}
+
+.el-bg-hover:hover{
+    background-color: #42a5f5 !important;
+}
+
+/*边框颜色*/
+
+.el-border-master{
+    border-color: #dcdcdc;
+}
+
+.el-border-master-light{
+    border-color: rgba(220, 220, 220, 0.6);
+}
+
+.el-border-primary{
+    border-color: #42a5f5;
+}
+
+.el-border-primary-light{
+    border-color: rgba(66, 165, 245, 0.35);
+}
+
+/*table*/
+
+.el-table{
+    font-size: 12px;
+}
+
+/*leftMenu*/
+.left-menu {
+    position: fixed;
+    top: 60px;
+    left: 0;
+    width: 184px;
+    height: 100%;
+    background-color: #fff;
+    border-right-width: 1px;
+    border-right-style: solid;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.left-menu .left-menu-footer, .left-menu .left-menu-header {
+    width: 100%;
+    height: 50px;
+    padding-left: 22px;
+    float: left;
+    line-height: 50px;
+    font-weight: 600;
+    color: #f0f0f0;
+    background: #414956
+}
+
+.left-menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none
+}
+
+.left-menu ul li {
+    width: 100%;
+    display: block;
+    float: left;
+    position: relative;
+    padding-left: 0;
+}
+
+.left-menu ul li a:hover {
+    color: #42a5f5;
+}
+
+.left-menu ul li a {
+    width: 100%;
+    padding: 10px 22px 10px 30px;
+    float: left;
+    text-decoration: none;
+    font-size: 14px;
+    color: rgb(9, 97, 170);
+    background: #fff;
+    white-space: nowrap;
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
+    transition: color .2s linear, background .2s linear;
+}
+
+.left-menu ul ul li a {
+    padding: 0 22px 0 30px;
+    font-size: 12px;
+}
+
+.left-menu > ul > li.active > a i {
+    color: #42a5f5;
+}
+
+.left-menu > ul > li > a {
+    border-bottom: solid 1px #e7ecf0
+}
+
+.left-menu ul li a i {
+    float: left;
+    line-height: 22px;
+    font-size: 16px;
+    text-align: left
+}
+
+.left-menu .submenu-indicator {
+    float: left;
+    left: 10px;
+    position: absolute;
+    line-height: 25px;
+    font-size: 20px;
+    -o-transition: transform .3s linear;
+    -moz-transition: transform .3s linear;
+    -webkit-transition: transform .3s linear;
+    -ms-transition: transform .3s linear
+}
+
+.left-menu ul ul .submenu-indicator {
+    top: 5px;
+    left: 26px;
+}
+
+.left-menu .submenu-indicator > i {
+    line-height: 20px;
+}
+
+.left-menu .v-icon {
+    float: right;
+    position: absolute;
+    right: 16px;
+    color: #b7b7b7;
+}
+
+.left-menu ul ul.submenu .submenu-indicator {
+    line-height: 16px
+}
+
+.left-menu ul ul.submenu i.fa {
+    font-size: 14px;
+}
+
+.left-menu .submenu-indicator-minus > .submenu-indicator {
+    transform: rotate(90deg)
+}
+
+.left-menu ul ul.submenu, .left-menu ul ul.submenu li ul.submenu {
+    width: 100%;
+    /*display: none;*/
+    position: static
+}
+
+.left-menu ul ul.submenu li {
+    clear: both;
+    width: 100%
+}
+
+.left-menu ul ul.submenu li a {
+    width: 184px;
+    height: 30px;
+    line-height: 30px;
+    float: left;
+    background: #edf4fd;
+    border-top: none;
+    position: relative;
+    border-left: solid 5px transparent;
+    overflow: hidden;
+    word-break: keep-all;
+    text-overflow: ellipsis;
+    transition: border .2s linear
+}
+
+.left-menu ul ul.submenu a {
+    border-left-color: #42a5f5;
+    background-color: #fafcff;
+}
+
+.left-menu ul ul.submenu a:hover {
+    border-left-color: #42a5f5;
+    background-color: #fafcff;
+}
+
+.left-menu .submenu .active a {
+    background-color: #42a5f5;
+    color: #fff;
+}
+
+.left-menu .submenu .active a:hover {
+    background-color: #42a5f5;
+    color: #fff;
+}
+
+.left-menu ul ul.submenu > li > a {
+    padding-left: 45px;
+}
+
+.left-menu ul ul.submenu > li > ul.submenu > li > a {
+    padding-left: 45px
+}
+
+.left-menu ul ul.submenu > li > ul.submenu > li > ul.submenu > li > a {
+    padding-left: 60px
+}
+
+.left-menu ul li .left-menu-label, .left-menu ul ul.submenu li .left-menu-label {
+    min-width: 20px;
+    padding: 1px 2px 1px 1px;
+    position: absolute;
+    right: 18px;
+    top: 14px;
+    font-size: 11px;
+    font-weight: 800;
+    color: #555;
+    text-align: center;
+    line-height: 18px;
+    background: #f0f0f0;
+    border-radius: 100%
+}
+
+.left-menu ul ul.submenu li .left-menu-label {
+    top: 12px
+}
+
+.ink {
+    display: block;
+    position: absolute;
+    background: rgba(255, 255, 255, .3);
+    border-radius: 100%;
+    transform: scale(0)
+}
+
+.animate-ink {
+    animation: ripple .5s linear
+}
+
+@keyframes ripple {
+    100% {
+        opacity: 0;
+        transform: scale(2.5)
+    }
+}
+:root{
+
+    /* Transition
+  -------------------------- */
+
+    /* Colors
+  -------------------------- */
+
+    /* Link
+  -------------------------- */
+
+    /* Border
+  -------------------------- */
+
+    /*--border-color-base: var(--color-extra-light-silver);*/
+
+    /*--border-color-hover: var(--color-base-silver);*/
+
+    /*--border-radius-base: 4px;*/
+
+    /* Box-shadow
+  -------------------------- */
+
+    /* Fill
+  -------------------------- */
+
+    /* Font
+  -------------------------- */
+
+    /*--font-size-base: 14px;*/
+
+    /* Size
+  -------------------------- */
+
+    /* z-index
+  -------------------------- */
+
+    /* Disable base
+  -------------------------- */
+
+    /* Icon
+  -------------------------- */
+
+    /* Checkbox
+  -------------------------- */
+
+    /* Radio
+  -------------------------- */
+
+    /* Select
+  -------------------------- */
+
+    /* Alert
+  -------------------------- */
+
+    /* Message Box
+  -------------------------- */
+
+    /* Message
+  -------------------------- */
+
+    /* Notification
+  -------------------------- */
+
+    /* Input
+  -------------------------- */
+
+    /*--input-height: 36px;*/
+
+    /*--input-placeholder-color: var(--color-light-silver);*/
+
+    /* Cascader
+  -------------------------- */
+
+    /* Group
+  -------------------------- */
+
+    /* Tab
+  -------------------------- */
+
+    /* Button
+  -------------------------- */
+
+    /*--button-font-size: 14px;*/
+
+    /*--button-padding-vertical: 10px;*/
+
+    /* cascader
+  -------------------------- */
+
+    /* Switch
+ -------------------------- */
+
+    /* Dialog
+ -------------------------- */
+
+    /* Table
+ -------------------------- */
+
+    /*--table-header-background: var(--color-extra-light-gray);*/
+
+    /* Pagination
+ -------------------------- */
+
+    /* Popover
+ -------------------------- */
+
+    /* Tooltip
+  -------------------------- */
+
+    /* Tag
+  -------------------------- */
+
+    /* Dropdown
+  -------------------------- */
+
+    /* Badge
+  -------------------------- */
+
+    /* Card
+  --------------------------*/
+
+    /* Slider
+  --------------------------*/
+
+    /* Steps
+  --------------------------*/
+
+    /* Menu
+  --------------------------*/
+
+    /* Rate
+  --------------------------*/
+
+    /* DatePicker
+  --------------------------*/
+
+    /* Loading
+  --------------------------*/
+
+    /* Scrollbar
+  --------------------------*/
+
+    /* Carousel
+  --------------------------*/
+
+    /* Collapse
+  --------------------------*/
+
+    /* Transfer
+  --------------------------*/
+}

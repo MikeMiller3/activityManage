@@ -1,0 +1,55 @@
+.page-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    width: 100%;
+    height: 60px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    background-color: #fff;
+}
+
+.page-header .logo-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 184px;
+    height: 60px;
+    border-right-width: 1px;
+    border-right-style: solid;
+}
+
+.page-header .header-right-wrap {
+    width: 100%;
+    height: 60px;
+    padding: 0 20px 0 204px;
+    box-sizing: border-box;
+}
+
+.page-header .header-right-wrap h2 {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 60px;
+}
+
+.page-header .header-right-wrap .user-info-box {
+    height: 60px;
+    line-height: 60px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.page-header .logo-box .logo-image {
+    float: left;
+    margin: 8px 8px 0 8px;
+}
+
+.page-header .logo-box h1 {
+    float: left;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 60px;
+}
+
+
